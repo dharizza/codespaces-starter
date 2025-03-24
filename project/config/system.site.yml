@@ -1,10 +1,10 @@
 _core:
   default_config_hash: ijfbzDTN4CbE7Sr-6ubWzy_t1vH4OtU1doNCLssVz-4
 langcode: en
-uuid: 4a3399e2-eeae-46f1-9a43-a1030dabfc7b
+uuid: 7618663b-f86f-49ec-8981-e7bb40bc102e
 name: 'Training Playground'
 mail: admin@example.com
-slogan: ''
+slogan: 'DrupalCon Atlanta 2025'
 page:
   403: ''
   404: ''
