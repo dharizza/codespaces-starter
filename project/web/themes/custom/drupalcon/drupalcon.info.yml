@@ -1,0 +1,37 @@
+name: drupalcon
+type: theme
+'base theme': olivero
+version: 1.0.0
+libraries:
+  - drupalcon/base
+  - drupalcon/messages
+  - core/normalize
+  - drupalcon/tailwindcss
+libraries-extend:
+  user/drupal.user:
+    - drupalcon/user
+  core/drupal.dropbutton:
+    - drupalcon/dropbutton
+  core/drupal.dialog:
+    - drupalcon/dialog
+  file/drupal.file:
+    - drupalcon/file
+  core/drupal.progress:
+    - drupalcon/progress
+description: ''
+core_version_requirement: ^11
+generator: 'starterkit_theme:11.1.5'
+regions:
+  header: Header
+  primary_menu: Primary menu
+  secondary_menu: Secondary menu
+  hero: Hero (full width)
+  highlighted: Highlighted
+  breadcrumb: Breadcrumb
+  social: Social Bar
+  content_above: Content Above
+  content: Content
+  sidebar: Sidebar
+  content_below: Content Below
+  footer_top: Footer Top
+  footer_bottom: Footer Bottom
