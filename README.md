@@ -4,11 +4,10 @@ This is a [Drupal via DDEV](https://github.com/drud/ddev) template configured fo
 
 ## Next Steps
 
-1. Clone this repository
-2. From the terminal move to the folder of the training, for example cd pspc-training
-3. Go to Code > Codespaces > Create new codespace based on main
-4. Once the codespace is setup, move to the project folder by running `cd project`
-5. Start the containers by running `ddev start`
-6. Get dependencies by running `ddev composer install`
-7. Install the website by running the command `ddev drush si --existing-config`
-8. Login to your website by runnin `ddev drush uli` and visiting that URL
+1. Clone this repository, fork it or use the template.
+2. Go to Code > Codespaces > Create new codespace based on main
+3. Once the codespace is setup, move to the project folder by running `cd project`
+4. Start the containers by running `ddev start`
+5. Get dependencies by running `ddev composer install`
+6. Install the website by running the command `ddev drush si --existing-config`
+7. Login to your website by runnin `ddev drush uli` and visiting that URL
