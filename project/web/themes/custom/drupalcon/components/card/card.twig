@@ -1,0 +1,23 @@
+<div class="card bg-green-100 p-8 border-solid border-2">
+
+{% block headerSlot %}
+
+    {% if image_url %}
+        <div class="card__image"> <img src="{{ image_url }}"></div>
+    {% endif %}
+    
+{% endblock headerSlot %}  
+
+{% block bodySlot %}
+
+    {% if title %}
+        <h3>{{ title }}</h3>
+    {% endif %}
+
+    {% if body %}
+        <div clas="card__body">{{ body }}</div>
+    {% endif %}
+
+{% endblock bodySlot %}    
+
+</div>

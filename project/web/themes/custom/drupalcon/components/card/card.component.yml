@@ -1,0 +1,26 @@
+name: Card
+props:
+  type: object
+  properties: 
+    image_url:
+      type: string
+      title: Image URL
+      examples:
+        - https://kittenimages.com/400/300
+    title:
+      type: string
+      title: Title
+      examples:
+        - Title of the card
+    body:
+      type: string  
+      title: Body  
+      examples:
+        - Body of the card
+  slots:
+    headerSlot:
+      title: Header Slot
+      description: Header of the card  
+    bodySlot:
+      title: Body Slot
+      description: Body of the card        
